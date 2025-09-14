@@ -1,68 +1,91 @@
-# Portfolio Website - Achievement 1
+# Achievement 1: Introduction to Frontend Development
 
-A responsive personal portfolio website showcasing web development skills and projects, built with HTML5, CSS3, and JavaScript.
+This repository contains the foundational projects for Achievement 1, focusing on HTML, CSS, and JavaScript fundamentals.
 
-## Overview
+## Projects Overview
 
-This portfolio website serves as a professional showcase of my web development journey and capabilities. It demonstrates fundamental frontend development skills including responsive design, modern CSS techniques, and interactive JavaScript functionality.
+### 1. Portfolio Website
+**Live Demo**: https://ivencomur.github.io/1.11_IECM/
 
-## Live Demo
+A responsive personal portfolio website showcasing web development skills and projects.
 
-**Website URL**: https://ivencomur.github.io/1.11_IECM/
+**Features:**
+- Responsive design with mobile-first approach
+- Clean, professional layout
+- Project showcase section
+- Contact information and social links
+- Cross-browser compatibility
 
-## Features
+**Technologies Used:**
+- HTML5
+- CSS3 (Flexbox, Grid)
+- JavaScript (ES6+)
+- Responsive design principles
 
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Modern CSS**: Flexbox/Grid layouts, CSS animations, and transitions
-- **Interactive Elements**: JavaScript-powered user interactions
-- **Professional Layout**: Clean, modern design with intuitive navigation
-- **Cross-Browser Compatibility**: Tested across major browsers
-- **Accessible Design**: Following web accessibility best practices
+### 2. Pokémon JavaScript App
+**Repository**: https://github.com/ivencomur/1.2_IECM_POKEMON
 
-## Technologies Used
+An interactive JavaScript application that displays Pokémon data with dynamic loading and modal functionality.
 
-- **HTML5**: Semantic markup and modern HTML features
-- **CSS3**: Advanced styling, animations, and responsive design
-- **JavaScript**: Interactive functionality and DOM manipulation
-- **GitHub Pages**: Static website hosting
+**Features:**
+- Dynamic Pokémon list generation
+- API integration for Pokémon data
+- Modal dialogs for detailed information
+- Search and filter functionality
+- Responsive grid layout
+- Loading indicators
 
-## Project Structure
+**Technologies Used:**
+- HTML5 semantic elements
+- CSS3 animations and transitions
+- Vanilla JavaScript (ES6+)
+- External API integration (PokéAPI)
+- DOM manipulation
+- Asynchronous programming (Promises/Async-await)
 
+## Key Learning Outcomes
+
+- **HTML Fundamentals**: Semantic markup, accessibility principles, form handling
+- **CSS Mastery**: Responsive design, Flexbox, CSS Grid, animations
+- **JavaScript Proficiency**: DOM manipulation, API integration, event handling, asynchronous programming
+- **Development Workflow**: Version control with Git, GitHub Pages deployment
+- **Web Standards**: Cross-browser compatibility, performance optimization
+
+## Development Context
+
+This achievement laid the foundation for full-stack development by establishing core frontend skills. Projects emphasize clean code practices, responsive design principles, and modern JavaScript techniques.
+
+## AI Assistance Declaration
+
+AI tools were utilized to overcome technical challenges including:
+- Debugging API integration issues with external services
+- Resolving CSS layout conflicts across different browsers
+- Optimizing JavaScript performance and code organization
+- Standardizing code documentation and best practices
+
+All AI-generated solutions were thoroughly tested and customized to meet project requirements while maintaining learning objectives.
+
+## Installation & Setup
+
+### Portfolio Website
+```bash
+# Clone the repository
+git clone https://github.com/ivencomur/1.11_IECM
+cd 1.11_IECM
+
+# Open index.html in your browser or use a local server
+# For live server: python -m http.server 8000
 ```
-portfolio-website/
-├── index.html              # Main page
-├── css/
-│   ├── styles.css         # Main stylesheet
-│   └── responsive.css     # Media queries and responsive styles
-├── js/
-│   └── script.js         # JavaScript functionality
-├── images/               # Project images and assets
-├── projects/            # Individual project pages
-└── README.md           # Project documentation
+
+### Pokémon App
+```bash
+# Clone the repository
+git clone https://github.com/ivencomur/1.2_IECM_POKEMON
+cd 1.2_IECM_POKEMON
+
+# Open index.html in your browser
+# Ensure internet connection for API functionality
 ```
-
-## Key Sections
-
-- **About**: Professional introduction and background
-- **Skills**: Technical competencies and tools
-- **Projects**: Portfolio of completed work
-- **Contact**: Professional contact information
-
-## Development Process
-
-This project marked the beginning of my full-stack development journey, focusing on:
-- Semantic HTML structure and accessibility
-- CSS layout techniques and responsive design principles
-- JavaScript fundamentals and DOM manipulation
-- Version control with Git and GitHub
-- Web hosting and deployment processes
-
-## Responsive Design
-
-The website is fully responsive with breakpoints for:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (320px - 767px)
 
 ## Browser Support
 
@@ -71,31 +94,13 @@ The website is fully responsive with breakpoints for:
 - Safari (latest)
 - Edge (latest)
 
-## AI Assistance Declaration
-
-This project required AI assistance to resolve technical challenges related to CSS layout issues, responsive design implementation, and JavaScript functionality debugging. The learning curve for modern web development techniques necessitated additional support when course materials needed supplementation with current best practices.
-
-**Human Oversight**: All AI-generated code was thoroughly reviewed, customized, and tested to ensure it met project requirements and learning objectives.
-
-## Learning Outcomes
-
-- Fundamental understanding of HTML5 semantic elements
-- CSS styling techniques and responsive design principles
-- JavaScript DOM manipulation and event handling
-- Version control workflow with Git and GitHub
-- Web deployment using GitHub Pages
-
 ## Future Enhancements
 
-- Integration with a content management system
+- Progressive Web App (PWA) capabilities
 - Advanced animations and micro-interactions
-- Performance optimization techniques
-- SEO improvements and meta tag optimization
-
-## Contact
-
-For questions about this project or collaboration opportunities, please visit the contact section of the live website.
+- Integration with additional APIs
+- Performance optimization and caching strategies
 
 ## License
 
-This project is licensed under the MIT License.
+This project is part of the CareerFoundry Full-Stack Web Development Program.
